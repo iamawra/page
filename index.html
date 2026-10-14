@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b0d">
+  <meta name="description" content="I.AM.AWRA — Beyond the Visible. Explore technology, AI, Linux, programming, and digital discoveries in English and Amharic.">
+  <title>I.AM.AWRA | Beyond the Visible</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="I.AM.AWRA home">
+      <span class="brand-mark">A<span>.</span></span>
+      <span class="brand-name">I.AM.AWRA<small>BEYOND THE VISIBLE</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#videos" data-en="VIDEOS" data-am="ቪዲዮዎች">VIDEOS</a>
+      <a href="#topics" data-en="EXPLORE" data-am="ይመልከቱ">EXPLORE</a>
+      <a href="#about" data-en="ABOUT" data-am="ስለ እኛ">ABOUT</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" id="languageToggle" type="button" aria-label="Switch language">አማ</button>
+      <a class="icon-link" href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube channel">YT ↗</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span><span data-en="SYSTEM STATUS: ONLINE" data-am="የሲስተም ሁኔታ፦ ንቁ">SYSTEM STATUS: ONLINE</span></p>
+        <p class="overline" data-en="CURIOSITY IS A SUPERPOWER" data-am="የማወቅ ጉጉት ኃይል ነው">CURIOSITY IS A SUPERPOWER</p>
+        <h1><span data-en="BEYOND THE" data-am="ከሚታየው">BEYOND THE</span><br><span class="accent" data-en="VISIBLE." data-am="በላይ።">VISIBLE.</span></h1>
+        <p class="hero-description" data-en="Technology meets curiosity. Explore AI, Linux, programming, digital tools, and the ideas shaping tomorrow." data-am="ቴክኖሎጂ ከማወቅ ጉጉት ጋር። ሰው ሰራሽ አስተውሎትን፣ ሊኑክስን፣ ፕሮግራሚንግን እና የዲጂታል ዓለምን ይመርምሩ።">Technology meets curiosity. Explore AI, Linux, programming, digital tools, and the ideas shaping tomorrow.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#videos"><span data-en="EXPLORE VIDEOS" data-am="ቪዲዮዎችን ይመልከቱ">EXPLORE VIDEOS</span><span aria-hidden="true"> ↘</span></a>
+          <a class="button button-ghost" href="https://www.youtube.com/" target="_blank" rel="noreferrer"><span data-en="SUBSCRIBE ON YOUTUBE" data-am="በዩቲዩብ ይከተሉ">SUBSCRIBE ON YOUTUBE</span> ↗</a>
+        </div>
+        <div class="hero-meta"><span>⌘ IAMAWRA.exe</span><span>◈ THINK · DISCOVER · SHARE</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract futuristic digital artwork">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="core"><span>A</span><i></i></div>
+        <div class="visual-label label-top">SIGNAL // 001</div>
+        <div class="visual-label label-bottom">CURIOSITY DETECTED<span> ▰ ▰ ▰ ▱ ▱</span></div>
+        <div class="crosshair crosshair-one">+</div><div class="crosshair crosshair-two">+</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Topics">
+      <div class="ticker-track"><span>ARTIFICIAL INTELLIGENCE</span><b>✳</b><span>LINUX & OPEN SOURCE</span><b>✳</b><span>TECH DISCOVERIES</span><b>✳</b><span>DIGITAL CULTURE</span><b>✳</b><span>ARTIFICIAL INTELLIGENCE</span><b>✳</b><span>LINUX & OPEN SOURCE</span><b>✳</b><span>TECH DISCOVERIES</span><b>✳</b></div>
+    </section>
+
+    <section class="section-wrap section-block" id="videos">
+      <div class="section-heading">
+        <div><p class="eyebrow">// <span data-en="LATEST TRANSMISSIONS" data-am="የቅርብ ጊዜ ስርጭቶች">LATEST TRANSMISSIONS</span></p><h2 data-en="FROM THE CHANNEL" data-am="ከቻናሉ">FROM THE CHANNEL</h2></div>
+        <a class="text-link" href="https://www.youtube.com/" target="_blank" rel="noreferrer"><span data-en="ALL VIDEOS" data-am="ሁሉም ቪዲዮዎች">ALL VIDEOS</span> ↗</a>
+      </div>
+      <div class="video-grid" id="videoGrid">
+        <article class="video-card featured-video">
+          <div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID_1" title="Featured I.AM.AWRA YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <div class="video-info"><span class="card-index">TRANSMISSION_001</span><h3 data-en="Featured video title" data-am="የተመረጠ ቪዲዮ ርዕስ">Featured video title</h3><p data-en="Replace this embed with your latest upload." data-am="ይህንን በቅርብ ጊዜ በለቀቁት ቪዲዮ ይቀይሩ።">Replace this embed with your latest upload.</p></div>
+        </article>
+        <article class="video-card">
+          <a class="video-placeholder" href="https://www.youtube.com/" target="_blank" rel="noreferrer"><span>▶</span><small>TRANSMISSION_002</small></a>
+          <div class="video-info"><span class="card-index">COMING FROM THE FEED</span><h3 data-en="Discover something new" data-am="አዲስ ነገር ይወቁ">Discover something new</h3><p data-en="Add a video ID and description in index.html." data-am="በ index.html ውስጥ የቪዲዮ መለያና መግለጫ ያስገቡ።">Add a video ID and description in index.html.</p></div>
+        </article>
+        <article class="video-card">
+          <a class="video-placeholder placeholder-blue" href="https://www.youtube.com/" target="_blank" rel="noreferrer"><span>▶</span><small>TRANSMISSION_003</small></a>
+          <div class="video-info"><span class="card-index">SIGNAL ACQUIRING</span><h3 data-en="Ideas beyond the screen" data-am="ከስክሪኑ በላይ ያሉ ሐሳቦች">Ideas beyond the screen</h3><p data-en="Your next tutorial or tech discovery goes here." data-am="ቀጣዩ ትምህርት ወይም የቴክኖሎጂ ግኝትዎ እዚህ ይታያል።">Your next tutorial or tech discovery goes here.</p></div>
+        </article>
+      </div>
+      <p class="setup-note"><strong>SETUP NOTE:</strong> Replace <code>VIDEO_ID_1</code> with the ID from your YouTube URL. Example: <code>youtube.com/watch?v=abc123</code> → ID is <code>abc123</code>.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="topics">
+      <div class="section-heading"><div><p class="eyebrow">// <span data-en="CHOOSE YOUR FREQUENCY" data-am="የሚፈልጉትን ይምረጡ">CHOOSE YOUR FREQUENCY</span></p><h2 data-en="EXPLORE THE UNKNOWN" data-am="ያልታወቀውን ይመርምሩ">EXPLORE THE UNKNOWN</h2></div></div>
+      <div class="topic-grid">
+        <a class="topic-card" href="https://www.youtube.com/" target="_blank" rel="noreferrer"><span class="topic-number">01 / AI</span><span class="topic-icon">⌘</span><h3>Artificial Intelligence</h3><p data-en="AI tools, models, experiments, and what they mean for everyone." data-am="የAI መሳሪያዎች፣ ሞዴሎች፣ ሙከራዎች እና ለሁሉም ሰው ያላቸው ትርጉም።">AI tools, models, experiments, and what they mean for everyone.</p><span class="topic-arrow">↗</span></a>
+        <a class="topic-card" href="https://www.youtube.com/" target="_blank" rel="noreferrer"><span class="topic-number">02 / SYS</span><span class="topic-icon">▣</span><h3>Linux & Systems</h3><p data-en="Practical guides, terminal tricks, open-source tools, and fixes." data-am="ተግባራዊ መመሪያዎች፣ የተርሚናል ዘዴዎች፣ ነፃ ሶፍትዌሮች እና መፍትሄዎች።">Practical guides, terminal tricks, open-source tools, and fixes.</p><span class="topic-arrow">↗</span></a>
+        <a class="topic-card" href="https://www.youtube.com/" target="_blank" rel="noreferrer"><span class="topic-number">03 / TECH</span><span class="topic-icon">⌁</span><h3>Tech Discoveries</h3><p data-en="Useful websites, surprising facts, gadgets, and digital culture." data-am="ጠቃሚ ድረ-ገጾች፣ አስገራሚ እውነታዎች፣ መሳሪያዎች እና ዲጂታል ባህል።">Useful websites, surprising facts, gadgets, and digital culture.</p><span class="topic-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="about-band" id="about">
+      <div class="section-wrap about-inner"><div><p class="eyebrow">// IDENTITY FILE</p><h2>I.AM.AWRA<span class="accent">_</span></h2></div><div class="about-copy"><p data-en="A channel for curious minds. Whether you code, create, or simply love technology, there is something here for you." data-am="ለማወቅ ጉጉት ላላቸው ሰዎች የተዘጋጀ ቻናል። ፕሮግራም ቢያደርጉ፣ ቢፈጥሩ ወይም ቴክኖሎጂን ብቻ ቢወዱ፣ እዚህ ለእርስዎ የሚሆን ነገር አለ።">A channel for curious minds. Whether you code, create, or simply love technology, there is something here for you.</p><a class="button button-primary" href="https://www.youtube.com/" target="_blank" rel="noreferrer"><span data-en="JOIN THE COMMUNITY" data-am="ማህበረሰቡን ይቀላቀሉ">JOIN THE COMMUNITY</span> ↗</a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#home">I.AM.AWRA<span>_</span></a><p data-en="Stay curious. Look beyond." data-am="ጉጉትዎን ይጠብቁ። ከሚታየው በላይ ይመልከቱ።">Stay curious. Look beyond.</p><div class="footer-links"><a href="https://www.youtube.com/" target="_blank" rel="noreferrer">YouTube ↗</a><a href="https://github.com/iamawra" target="_blank" rel="noreferrer">GitHub ↗</a></div><small>© <span id="year"></span> I.AM.AWRA · BUILT FOR THE CURIOUS</small></footer>
+</body>
+</html>
